@@ -48,7 +48,7 @@
 
 ### Home Page
 
-<img width="1440" height="861" alt="image" src="./screenshots/home.png" /><div align="center">
+<img width="1440" height="861" alt="image" src="./screenshots/home.png" />
 
 ### Register Page
 
