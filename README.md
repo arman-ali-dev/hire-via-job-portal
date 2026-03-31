@@ -50,19 +50,17 @@
 
 <img width="1440" height="861" alt="image" src="./screenshots/home.png" /><div align="center">
 
-### Login Page
+### Register Page
 
-> _(Screenshot coming soon)_
+<img width="1440" height="861" alt="image" src="./screenshots/register.png" /><div align="center">
 
 ### Recruiter Dashboard
 
-> _(Screenshot coming soon)_
+<img width="1440" height="861" alt="image" src="./screenshots/recruiter-dashboard.png" /><div align="center">
 
-### Job Listings
+### Candidate Dashboard
 
-> _(Screenshot coming soon)_
-
----
+<img width="1440" height="861" alt="image" src="./screenshots/candidate-dashboard.png" /><div align="center">
 
 ## Installation
 
