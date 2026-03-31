@@ -1,5 +1,3 @@
-<img width="1440" height="861" alt="image" src="https://github.com/user-attachments/assets/0aacb28b-4e93-4213-b0c3-94c58c8b15f7" /><div align="center">
-
 # Hire Via — Job Portal
 
 **Hire Via is a full stack job portal where recruiters can post jobs and candidates can apply for jobs.**
@@ -50,7 +48,7 @@
 
 ### Home Page
 
-> _(Screenshot coming soon)_
+<img width="1440" height="861" alt="image" src="./screenshots/home.png" /><div align="center">
 
 ### Login Page
 
