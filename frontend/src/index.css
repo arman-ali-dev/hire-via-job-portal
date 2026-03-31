@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Lexend:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Lexend:wght@100..900&family=Poller+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Lexend:wght@100..900&family=Lily+Script+One&family=Poller+One&display=swap");
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+:root {
+  --primary-color: #1a6079;
+}
+
+.activeLink {
+  color: var(--primary-color);
+  position: relative;
+}
+
+.activeLink::before {
+  height: 2px;
+  width: 100%;
+  background-color: var(--primary-color);
+  content: "";
+  bottom: -12px;
+  border-radius: 3px;
+  position: absolute;
+}
+
+.logo {
+  font-family: "Poller One", sans-serif;
+}
+header {
+  box-shadow: 0 2px 20px 1px rgba(204, 204, 204, 0.1);
+}
+
+.searchShadow {
+  box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.1);
+}
+
+.formShadow {
+  box-shadow: 0 3px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.borderLine::before {
+  content: "";
+  height: 55px;
+  width: 1px;
+  background-color: #ddd7d7;
+  position: absolute;
+  left: -55px;
+  top: -16px;
+}
+
+.borderLine::after {
+  content: "";
+  height: 55px;
+  width: 1px;
+  background-color: #ddd7d7;
+  position: absolute;
+  right: -60px;
+  top: -16px;
+}
+
+.footerHeading::before {
+  background-color: white;
+  width: 65%;
+  height: 2px;
+  border-radius: 4px;
+  content: "";
+  position: absolute;
+  bottom: -3px;
+}
+
+.activeDashboardPage {
+  background-color: #fff;
+  color: var(--primary-color) !important;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  min-width: 297px;
+  position: relative;
+}
+
+.activeDashboardPage::after {
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -50px;
+}
+
+.activeDashboardPage::before {
+  background-color: var(--primary-color);
+  border-bottom-right-radius: 70%;
+  height: 50px;
+  width: 50px;
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: -50px;
+  z-index: 99;
+}
+
+.circle {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+
+.circle2 {
+  background-color: var(--primary-color);
+  border-top-right-radius: 70%;
+  height: 50px;
+  width: 50px;
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 56px;
+  z-index: 99;
+}
+
+@media (max-width: 640px) {
+  .activeDashboardPage::before,
+  .activeDashboardPage::after {
+    display: none;
+  }
+
+  .activeDashboardPage {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+}
