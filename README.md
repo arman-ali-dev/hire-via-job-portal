@@ -53,9 +53,11 @@
 ### Register Page
 
 <img width="1440" height="861" alt="image" src="./screenshots/register.png" />
+
 ### Recruiter Dashboard
 
 <img width="1440" height="861" alt="image" src="./screenshots/recruiter-dashboard.png" />
+
 ### Candidate Dashboard
 
 <img width="1440" height="861" alt="image" src="./screenshots/candidate-dashboard.png" />
